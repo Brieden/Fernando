@@ -10,7 +10,6 @@ export default defineConfig({
   site: "https://brieden.github.io",
   base: '/astro-paper',
   output: 'static',
-  outDir: './docs',
   integrations: [
     tailwind({
       config: {
