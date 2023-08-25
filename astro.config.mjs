@@ -7,7 +7,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://brieden.github.io/", // replace this with your deployed domain
+  site: "https://brieden.github.io", // replace this with your deployed domain
+  base: '/astro-paper',
   integrations: [
     tailwind({
       config: {
