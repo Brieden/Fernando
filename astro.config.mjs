@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://brieden.github.io",
-  base: '/fernado',
+  base: '/Fernado',
   output: 'static',
   integrations: [
     tailwind({
